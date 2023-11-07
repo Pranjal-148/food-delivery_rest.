@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    display: flex;    
+    justify-content: space-between;
+    background-color: #ff0000;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+
+}
+.nav-logo{
+
+    display:flex;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.nav-logo>p{
+    color: rgb(233, 172, 112)
+    ;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-right>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap:30px;
+    font-size: 20px;
+    font-weight:600;
+    padding-top: 20px;
+}
+.bodyimg{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    opacity: 1;
+    height: 800px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: rgb(255, 186, 13);
+    font-weight: 900;
+    text-align: center;
+}
+.bodyimg >h1{
+    padding-top: 100px;
+    font-size: 100px;
+}
+
+.bodyimg>p{
+    letter-spacing: 1px;
+}
+.bodyimg2{
+  
+   height: 900px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.d1{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf");
+    height: 500px;
+    background-repeat: no-repeat;background-size: contain;
+    
+}
+.d2{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.d3{
+    background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 50px;
+}
+.about>ul>li{
+    padding-block: 2px;
+}
+.Contact>ul>li{
+    padding-block: 2px;
+}
+
+
+.main{
+    display: flex;  
+    justify-content: space-evenly;
+    background-color: #d6d6d6;
+    padding:20px ;
+    gap: 60px;
+}
+
+.nav-right a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(224, 213, 213);
+}
+
+.nav-right li:hover{
+    transform: scale(1.3);
+}

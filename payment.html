@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="shortcut icon" href="icons8-kitchen-64.png" type="image/x-icon">
+</head>
+
+<body>
+ <div>
+    <p style="text-align: center ; font-size : 50px;padding-top: 10px;"> Shopping Cart
+    </p>
+ </div>
+    <div class="row">
+        <div class="col-25">
+            <div class="container">
+              <h4 style="padding: 10px;">Cart
+                <span class="price" style="color:black">
+                  <i class="fa fa-shopping-cart"></i>
+                  <b>4</b>
+                </span>
+              </h4>
+              <p >Butter Chicken x 1 <span class="price"> Rs. 320</span></p>
+              <p >Garlic Naan x 2 <span class="price">Rs. 80 </span></p>
+              <p >Ras Malai x 1 <span class="price">Rs. 150</span></p>
+              <p > Chicken Wings x 1 <span class="price">RS. 200</span></p>
+              <hr>
+              <p>Total <span class="price" style="color:black"><b>Rs. 750</b></span></p>
+            </div>
+          </div>
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+      
+             
+      
+                <div class="col-50">
+                  <h3 style="padding-bottom: 10px;">Payment Options</h3>
+                  <label for="fname" style="padding-bottom: 10px;">Pay With Credit/Debit Card</label>
+                
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Pranjal Kumar">
+                  <div id="cd">
+                  <label for="ccnum">Credit card number</label>
+                
+                  <input type="number" id="ccnum" name="cardnumber" max="16" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp </label>
+                  <input type="month" id="expmonth" name="expmonth" placeholder="September">
+                  <div>
+                    <label for="cvv">CVV</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="***">
+                  
+                
+              </div>
+                 </div>
+                    </div>
+                    
+                <div >
+               <button id="pd">
+                Pay With UPI
+               </button>
+               <button id="pd">
+                Pay On Delivery
+               </button>
+               </div>
+              </div>
+              <label>
+               
+              <input type="submit" value="Place Order" class="btn" required>
+            </form>
+          </div>
+        </div>
+      
+        
+      </div>
+</body>
+
+</html>

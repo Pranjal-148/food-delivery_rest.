@@ -1,0 +1,79 @@
+
+td {
+  padding: 30px;
+  color: rgb(255, 251, 0);
+  background-color: rgb(150, 16, 16);
+}
+ .head{ 
+   text-align: center;
+   margin: auto;
+   margin-top: 50px;
+  font-size: 50px;
+  color: rgb(98, 255, 0);
+  font-weight: 900;
+  font-family: cursive;
+  background-color: transparent;
+}
+.headl{ 
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+ font-size: 50px;
+ color: rgb(2, 61, 18);
+ font-weight: 900;
+ font-family: cursive;
+ background-color: transparent;
+ margin-bottom: 50px;
+}
+.table{
+          margin-top: 50px;
+          font-family: cursive;
+          font-weight: 900;
+          background-color: transparent;
+}
+.tablel td{
+  margin-top: 50px;
+  font-family: cursive;
+  font-weight: 900;
+  background-color: rgb(255, 255, 0);
+  color: rgb(246, 119, 0);
+
+}
+.submit input{
+     
+     font-family: cursive;
+     background-color: rgb(28, 167, 0);
+     border:none;
+     border-radius: 5px;
+     color: rgb(251, 255, 10);
+     padding:5px 15px ;
+     margin-inline: 30px ;
+}
+.login{
+  
+  background-color: rgb(238, 0, 0);
+  border:none;
+  border-radius: 5px;
+  color: rgb(251, 255, 3);
+  font-family: cursive;
+  padding:5px 15px ;
+}
+.lbody{
+        background-image: url("https://tb-static.uber.com/prod/image-proc/processed_images/357ad2180e5c7dbf05d17543bee75b9d/16bb0a3ab8ea98cfe8906135767f7bf4.webp");
+        background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.rbody{
+   background-image: url("https://popmenucloud.com/cdn-cgi/image/width=1920,height=1920,format=auto,fit=scale-down/zxkqrfjo/6947203d-ca73-4714-bbdf-dd58f861845d");
+   background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+   textarea{
+     resize: none;
+   }
+   
+     
+     
+

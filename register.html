@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="register.css" />
+    <link rel="shortcut icon" href="icons8-kitchen-64.png" type="image/x-icon">
+</head>
+
+<body class="rbody">
+    <div  class="head">
+    <h>REGISTRATION</h>
+    </div>
+    <div class="table">
+    <table align="center" border="5" width="300px" style="background-color: rgb(235, 255, 18); border: 5 ;padding: 5px;"
+        class="Registration">
+        <form>
+        <tr>
+            <th colspan="2" style="color: red; padding: 5px;background-color: rgb(255, 225, 0);">ACCOUNT DETAIS</th>
+        </tr>
+        <tr>
+            <td>NAME</td>
+            <td><input type="text" name="NAME" placeholder="enter your name" required> </td>
+            </tr>
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td> <input type="number" name="MOBILE NUMBER" placeholder="enter your mobile no." required></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td>
+           <textarea id="address" name="ADDRESS" rows="5" cols="50" required ></textarea> 
+           </td>
+            </tr>
+            <tr>
+            <td>GENDER</td>
+            <td><input type="radio" name="GENDER" value="male">MALE
+            <input type="radio" name="GENDER" value="female">FEMALE </td>
+            </tr> 
+           
+            <tr>
+                <td>EMAIL ID</td>
+                <td><input type="email" name="EMAIL ID" placeholder="enter your email id" required> </td>           
+            </tr>
+             <tr>
+                <td>CREATE PASSWORD</td>
+                <td><input type="password" name="CREATE PASSWORD" placeholder="create your password" required> </td>
+             </tr>
+             <tr>
+                <td colspan="2" class="submit">
+               <a href="login.html"><input type="submit" value="REGISTER"></a>
+                <input type="reset" value="RESET">
+               <a href="login.html" ><input type="button" value="LOGIN" ></a>
+            </td>
+            
+                
+              
+            </tr>
+            </form> 
+    </table>
+
+</body>
+
+</html>
